@@ -3,14 +3,14 @@ import { syncHistoryWithStore } from "react-router-redux";
 import { browserHistory } from "react-router";
 
 // import the root reducer
-import rootReducer from "./reducer/Index";
+import rootReducer from "./reducers/index";
 
 import comments from "./data/comments";
-import post from "./data/posts";
+import posts from "./data/posts";
 
 // create an object for the default data
 const defaultState = {
-  post,
+  posts,
   comments,
 };
 
